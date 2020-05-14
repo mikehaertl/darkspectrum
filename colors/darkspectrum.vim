@@ -25,8 +25,8 @@ let g:colors_name="darkspectrum"
 hi Normal guifg=#efefef guibg=#2A2A2A
 
 " highlight groups
-hi Cursor		guibg=#ffffff guifg=#000000
-hi CursorLine	guibg=#000000
+hi Cursor		guibg=#ffffff guifg=#3C3C3C
+hi CursorLine	guibg=#3C3C3C
 "hi CursorLine	guibg=#3e4446
 hi CursorColumn	guibg=#464646
 
@@ -39,17 +39,17 @@ hi DiffAdd         guifg=#ffcc7f guibg=#a67429 gui=none
 hi DiffChange      guifg=#7fbdff guibg=#425c78 gui=none
 hi DiffText        guifg=#8ae234 guibg=#4e9a06 gui=none
 "hi DiffDelete      guifg=#252723 guibg=#000000 gui=none
-hi DiffDelete      guifg=#000000 guibg=#000000 gui=none
+hi DiffDelete      guifg=#3C3C3C guibg=#3C3C3C gui=none
 "hi ErrorMsg
 
 hi Number		guifg=#fce94f
 
-hi Folded		guibg=#000000 guifg=#FFFFFF gui=bold
-hi vimFold		guibg=#000000 guifg=#FFFFFF gui=bold
-hi FoldColumn	guibg=#000000 guifg=#FFFFFF gui=bold
+hi Folded		guibg=#3C3C3C guifg=#FFFFFF gui=bold
+hi vimFold		guibg=#3C3C3C guifg=#FFFFFF gui=bold
+hi FoldColumn	guibg=#3C3C3C guifg=#FFFFFF gui=bold
 
 hi LineNr		guifg=#535353 guibg=#202020
-hi NonText		guifg=#535353 guibg=#202020
+hi NonText		guifg=#535353 guibg=#2A2A2A
 hi Folded		guifg=#535353 guibg=#202020 gui=bold
 hi FoldeColumn  guifg=#535353 guibg=#202020 gui=bold
 "hi VertSplit	guibg=#ffffff guifg=#ffffff gui=none
@@ -89,7 +89,7 @@ hi Function		guifg=#ad7fa8
 "hi WildMenu     guifg=#7fbdff guibg=#425c78 gui=none
 hi WildMenu     guifg=#ffffff guibg=#3465a4 gui=none
 
-hi Pmenu        guibg=#000000 guifg=#c0c0c0
+hi Pmenu        guibg=#3C3C3C guifg=#c0c0c0
 hi PmenuSel     guibg=#3465a4 guifg=#ffffff
 hi PmenuSbar    guibg=#444444 guifg=#444444
 hi PmenuThumb   guibg=#888888 guifg=#888888 
