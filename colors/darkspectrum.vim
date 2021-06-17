@@ -30,14 +30,14 @@ hi CursorLine	guibg=#3C3C3C
 hi CursorColumn	guibg=#464646
 
 hi DiffAdd     guibg=#4e9a06 guifg=#FFFFFF gui=none
-hi DiffChange  guibg=#3C3C3C guifg=#FFFFFF gui=none
+hi DiffChange  guibg=#7fbdff guifg=#FFFFFF gui=none
 hi DiffDelete  guibg=#EE6969 guifg=#EEC0C0 gui=none
 hi DiffText    guibg=#204a87 guifg=#7fbdff gui=none
 
 hi Number		guifg=#fce94f
 
-hi Folded		guibg=#3C3C3C guifg=#FFFFFF gui=bold
-hi FoldColumn	guibg=#3C3C3C guifg=#FFFFFF gui=bold
+hi Folded		guibg=#3C3C3C guifg=#CCCCCC gui=none
+hi FoldColumn	guibg=#3C3C3C guifg=#CCCCCC gui=none
 
 hi LineNr		guifg=#535353 guibg=#202020
 hi NonText		guifg=#535353 guibg=#2A2A2A
