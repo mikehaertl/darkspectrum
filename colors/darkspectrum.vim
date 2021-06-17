@@ -27,32 +27,20 @@ hi Normal guifg=#efefef guibg=#2A2A2A
 " highlight groups
 hi Cursor		guibg=#ffffff guifg=#3C3C3C
 hi CursorLine	guibg=#3C3C3C
-"hi CursorLine	guibg=#3e4446
 hi CursorColumn	guibg=#464646
 
-"hi DiffText     guibg=#4e9a06 guifg=#FFFFFF gui=bold
-"hi DiffChange   guibg=#4e9a06 guifg=#FFFFFF gui=bold
-"hi DiffAdd      guibg=#204a87 guifg=#FFFFFF gui=bold
-"hi DiffDelete   guibg=#5c3566 guifg=#FFFFFF gui=bold
-
-hi DiffAdd         guifg=#ffcc7f guibg=#a67429 gui=none
-hi DiffChange      guifg=#7fbdff guibg=#425c78 gui=none
-hi DiffText        guifg=#8ae234 guibg=#4e9a06 gui=none
-"hi DiffDelete      guifg=#252723 guibg=#000000 gui=none
-hi DiffDelete      guifg=#3C3C3C guibg=#3C3C3C gui=none
-"hi ErrorMsg
+hi DiffAdd     guibg=#4e9a06 guifg=#FFFFFF gui=none
+hi DiffChange  guibg=#3C3C3C guifg=#FFFFFF gui=none
+hi DiffDelete  guibg=#EE6969 guifg=#EEC0C0 gui=none
+hi DiffText    guibg=#204a87 guifg=#7fbdff gui=none
 
 hi Number		guifg=#fce94f
 
 hi Folded		guibg=#3C3C3C guifg=#FFFFFF gui=bold
-hi vimFold		guibg=#3C3C3C guifg=#FFFFFF gui=bold
 hi FoldColumn	guibg=#3C3C3C guifg=#FFFFFF gui=bold
 
 hi LineNr		guifg=#535353 guibg=#202020
 hi NonText		guifg=#535353 guibg=#2A2A2A
-hi Folded		guifg=#535353 guibg=#202020 gui=bold
-hi FoldeColumn  guifg=#535353 guibg=#202020 gui=bold
-"hi VertSplit	guibg=#ffffff guifg=#ffffff gui=none
 
 hi VertSplit	guibg=#3C3C3C guifg=#3C3C3C gui=none
 hi StatusLine   guifg=#FFFFFF guibg=#3C3C3C gui=none
@@ -85,8 +73,6 @@ hi Ignore		guifg=#555753
 hi Todo			guifg=#FFFFFF guibg=#ef5939 gui=bold
 hi Function		guifg=#ad7fa8
 
-"hi WildMenu     guibg=#2e3436 guifg=#ffffff gui=bold
-"hi WildMenu     guifg=#7fbdff guibg=#425c78 gui=none
 hi WildMenu     guifg=#ffffff guibg=#3465a4 gui=none
 
 hi Pmenu        guibg=#3C3C3C guifg=#c0c0c0
@@ -106,7 +92,6 @@ hi link Error			Todo
 hi link Character		Number
 hi link rubySymbol		Number
 hi link htmlTag			htmlEndTag
-"hi link htmlTagName     htmlTag
 hi link htmlLink		Underlined
 hi link pythonFunction	Identifier
 hi link Question		Type
@@ -119,12 +104,9 @@ hi link shVariable		Function
 hi link rubySharpBang	Special
 hi link perlSharpBang	Special
 hi link schemeFunc      Statement
-"hi link shSpecialVariables Constant
-"hi link bashSpecialVariables Constant
 
 " tabs (non gui)
 hi TabLine		guifg=#A3A3A3 guibg=#202020 gui=none
 hi TabLineFill	guifg=#535353 guibg=#202020 gui=none
 hi TabLineSel	guifg=#FFFFFF gui=bold
-"hi TabLineSel	guifg=#FFFFFF guibg=#000000 gui=bold
 " vim: sw=4 ts=4
